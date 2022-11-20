@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://tytan01.github.io/nft-preview-card-component/)
 
 ### Build with
 
