@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Outfit;
+    src: url(./fonts/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+html, body {
+    height: 100%;
+}
+
+span {
+    height: 100%;
+}
+
+.container {
+    width: 320px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0.625rem 0.625rem 0.938rem #0a1729;
+}
+
+.eth {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.header {
+    width: 280px;
+    font-family: Outfit;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin:auto;
+    margin-top: 17px;
+}
+
+p {
+    width: 280px;
+    font-family: Outfit;
+    margin: auto;
+}
+
+.description{
+    margin-top: 12px;
+    color:#8b8f99;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.info {
+    margin-top: 15px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-text {
+    color: hsl(178, 100%, 50%);
+    font-family: Outfit;
+    font-size: 14px;
+}
+
+.eth-icon {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.clock-text {
+    color:#8b8f99;
+    font-family: Outfit;
+    font-size: 14px;
+}
+
+.clock-icon {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.divider { 
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    border: 0;
+    background-color: rgba(255, 255, 255, .2);
+    margin-top: 13px;
+}
+
+.bottom {
+    width: 280px;
+    margin-top: 10px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.bottomtext {
+    margin-left: 13px;
+    font-family: Outfit;
+    color: #8b8f99;
+    font-size: 14px;
+}
+
+.name {
+    font-family: Outfit;
+    font-size: 14px;
+    color: white;
+}
